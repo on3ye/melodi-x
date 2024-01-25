@@ -1,0 +1,35 @@
+{
+  "name": "melodi-x",
+  "version": "0.1.0",
+  "description": "Music commands for Discord.",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "reload": "node ./src/loader.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/on3ye/melodi-x.git"
+  },
+  "keywords": [
+    "Music",
+    "Discord",
+    "Bot",
+    "Melody"
+  ],
+  "author": "on3ye",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/on3ye/melodi-x/issues"
+  },
+  "homepage": "https://github.com/on3ye/melodi-x#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "nodemon": "^3.0.3"
+  }
+}
